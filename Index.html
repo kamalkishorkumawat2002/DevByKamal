@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevByKamal | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">DevByKamal</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#dev-account">Dev Account</a></li>
+        <li><a href="#signup">Sign Up</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h3 class="hero-tagline">Showcase your skills and projects with <span class="highlight">DevByKamal</span></h3>
+    <h1><span id="typed-text"></span><span class="cursor">|</span></h1>
+    <p>Aspiring Web Developer | HTML, CSS, Java & GitHub</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </section>
+
+  <section id="about" class="reveal left" data-delay="0">
+    <h2>About Me</h2>
+    <p>I'm passionate about crafting responsive, accessible, and visually engaging websites. With a foundation in Java and a curious mind for AI, I love building things that matter.</p>
+  </section>
+
+  <section id="dev-account" class="reveal right" data-delay="200">
+    <h2>Create Your DevByKamal Account</h2>
+    <p>Join a growing community of developers! With a free DevByKamal account, you can:</p>
+    <ul>
+      <li>Upload and manage your web projects</li>
+      <li>Showcase your portfolio publicly</li>
+      <li>Get helpful feedback from fellow devs</li>
+      <li>Access learning resources and starter templates</li>
+    </ul>
+    <a href="#signup" class="btn">Create an Account</a>
+  </section>
+
+  <section id="signup" class="reveal bottom" data-delay="400">
+    <h2>Sign Up</h2>
+    <form id="signup-form">
+      <input type="text" name="username" placeholder="Choose a Username" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="password" name="password" placeholder="Create a Password" required />
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <section id="contact" class="reveal top" data-delay="600">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 DevByKamal — Made with ❤️ and clean code</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
